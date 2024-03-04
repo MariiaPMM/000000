@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: rgb(178, 178, 189);
+  color: white;
+}
+header{
+  display:flex;
+  justify-content:center;
+}
+ 
+header {
+  border: 2px solid black; /* Рамка для навігаційного меню */
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.Logo, .Top_menu{
+  margin-right: 25px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.Top_menu li{
+  margin-right: 25px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.Top_menu a{
+  vertical-align: middle;
+  font-family:arial;
+  font-size: 15px;
+  color:white;
+}
+.Top_menu a:hover{
+  color: cyan;
+}
+.Logo h1{
+  vertical-align: middle;
+  font-family:arial;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+ 
+.Logo_2, .Top_menu_2{
+  margin-right: 25px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.Top_menu_2 li{
+  margin-right: 25px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.Top_menu_2 a{
+  vertical-align: middle;
+  font-family:arial;
+  font-size: 15px;
+  color:white;
+}
+.Top_menu_2 a:hover{
+  color: cyan;
+}
+.Logo_2 h1{
+  vertical-align: middle;
+  font-family:arial;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.centered {
+   
+    transform: translate(100px, 20px); /* Зсуваємо на 50px вправо і на 20px вниз */
+}
+
+ .head_text{
+  position: absolute; /* Встановлюємо позицію */
+    top: 85px; /* Зсуваємо вниз на px */
+    left: 500px; /* Зсуваємо вправо на px */
+     
+  font-family:arial;
+  font-size: 20px;
+  color: #7e20f1;  
+ }
+
+ .video{
+  position: absolute; /* Встановлюємо позицію */
+    top: 500px; /* Зсуваємо вниз на px */
+    left: 1100px;
+ }
+
+ .button{
+  position: absolute; /* Встановлюємо позицію */
+    top: 100px; /* Зсуваємо вниз на px */
+    left: 1300px;
+    background-color: #4CAF50; /* Колір фону */
+            border: none; /* Відсутність рамки */
+            color: white; /* Колір тексту */
+            padding: 15px 32px; /* Внутрішні відступи */
+            text-align: center; /* Вирівнювання тексту */
+            text-decoration: none; /* Відсутність підкреслення тексту */
+            display: inline-block; /* Відображення як блок */
+            font-size: 16px; /* Розмір тексту */
+            margin: 4px 2px; /* Зовнішні відступи */
+            cursor: pointer; /* Зміна вигляду курсора при наведенні */
+            border-radius: 8px; /* Закруглені кути */
+
+     
+ }
