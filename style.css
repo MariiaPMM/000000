@@ -3,7 +3,7 @@
   padding:0;
 }
 body{
-  background: rgb(178, 178, 189);
+  background: rgb(108, 108, 114);
   color: white;
 }
 header{
@@ -75,42 +75,239 @@ header {
 }
 
 
-.centered {
-   
-    transform: translate(100px, 20px); /* Зсуваємо на 50px вправо і на 20px вниз */
-}
+ 
 
+ 
  .head_text{
   position: absolute; /* Встановлюємо позицію */
     top: 85px; /* Зсуваємо вниз на px */
-    left: 500px; /* Зсуваємо вправо на px */
+    left: 450px; /* Зсуваємо вправо на px */
      
   font-family:arial;
   font-size: 20px;
-  color: #7e20f1;  
+  color: #000000;  
  }
 
  .video{
   position: absolute; /* Встановлюємо позицію */
     top: 500px; /* Зсуваємо вниз на px */
-    left: 1100px;
+    left: 1130px;
  }
 
- .button{
-  position: absolute; /* Встановлюємо позицію */
-    top: 100px; /* Зсуваємо вниз на px */
-    left: 1300px;
-    background-color: #4CAF50; /* Колір фону */
-            border: none; /* Відсутність рамки */
+ .button {
+   
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 10px 20px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(7, 0, 9); /* Колір фону кнопки */
             color: white; /* Колір тексту */
-            padding: 15px 32px; /* Внутрішні відступи */
-            text-align: center; /* Вирівнювання тексту */
-            text-decoration: none; /* Відсутність підкреслення тексту */
-            display: inline-block; /* Відображення як блок */
-            font-size: 16px; /* Розмір тексту */
-            margin: 4px 2px; /* Зовнішні відступи */
-            cursor: pointer; /* Зміна вигляду курсора при наведенні */
-            border-radius: 8px; /* Закруглені кути */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
 
+            position: absolute; /* Встановлюємо позицію */
+    top: 75px; /* Зсуваємо вниз на px */
+    left: 1265px;
+ }
+.button:hover {
+  background-color: rgb(32, 32, 33); /* Колір фону при наведенні */
+}
+
+.img_head{
+  position: absolute; /* Встановлюємо позицію */
+    top: 75px; /* Зсуваємо вниз на px */
+    left: 600px;
+     
+}
+ 
+
+.video_1{
+  position: absolute; /* Встановлюємо позицію */
+    top:0px; /* Зсуваємо вниз на px */
+    left: 0px;
      
  }
+
+ .video_2{
+  position: absolute; /* Встановлюємо позицію */
+    top: 50px; /* Зсуваємо вниз на px */
+    left: 200px;
+ }
+
+ .table{
+  position: absolute; /* Встановлюємо позицію */
+    top: 400px; /* Зсуваємо вниз на px */
+    left: 50px;
+ }
+.text_gadgets{
+  position: absolute; /* Встановлюємо позицію */
+    top: 85px; /* Зсуваємо вниз на px */
+    left: 300px; /* Зсуваємо вправо на px */
+     
+  font-family:arial;
+  font-size: 20px;
+  color: #000000;  
+ }
+
+ .gadgets_img{
+  position: absolute; /* Встановлюємо позицію */
+    top:40px; /* Зсуваємо вниз на px */
+    left: 0px;
+ }
+ .gadget_img_1{
+  position: absolute; /* Встановлюємо позицію */
+    top:330px; /* Зсуваємо вниз на px */
+    left: 0px;
+ }
+  .icon_1{
+    display: inline-block;
+    position: absolute; /* Встановлюємо позицію */
+    top:100px; /* Зсуваємо вниз на px */
+    left: 350px;
+     border-radius: 15; 
+     
+  }
+  .icon_2{
+    display: inline-block;
+    position: absolute; /* Встановлюємо позицію */
+    top:100px; /* Зсуваємо вниз на px */
+    left: 650px;
+     border-radius: 15; 
+  }
+
+  .icon_3{
+    display: inline-block;
+    position: absolute; /* Встановлюємо позицію */
+    top:100px; /* Зсуваємо вниз на px */
+    left: 950px;
+     border-radius: 15; 
+  }
+  .icon_4{
+    display: inline-block;
+    position: absolute; /* Встановлюємо позицію */
+    top:100px; /* Зсуваємо вниз на px */
+    left: 1250px;
+     border-radius: 15; 
+  }
+
+
+.button_phone_1{
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 10px 100px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(27, 217, 43); /* Колір фону кнопки */
+            color: white; /* Колір тексту */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
+
+            position: absolute; /* Встановлюємо позицію */
+    top: 560px; /* Зсуваємо вниз на px */
+    left: 350px;
+}
+.button_phone_1:hover {
+  background-color: rgb(43, 181, 41); /* Колір фону при наведенні */
+}
+ 
+.button_phone_2{
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 10px 100px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(27, 217, 43); /* Колір фону кнопки */
+            color: white; /* Колір тексту */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
+
+            position: absolute; /* Встановлюємо позицію */
+    top: 560px; /* Зсуваємо вниз на px */
+    left: 650px;
+}
+.button_phone_2:hover {
+  background-color: rgb(43, 181, 41); /* Колір фону при наведенні */
+}
+
+.button_phone_3{
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 10px 100px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(27, 217, 43); /* Колір фону кнопки */
+            color: white; /* Колір тексту */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
+
+            position: absolute; /* Встановлюємо позицію */
+    top: 560px; /* Зсуваємо вниз на px */
+    left: 950px;
+}
+.button_phone_3:hover {
+  background-color: rgb(43, 181, 41); /* Колір фону при наведенні */
+}
+
+.button_phone_4{
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 10px 100px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(27, 217, 43); /* Колір фону кнопки */
+            color: white; /* Колір тексту */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
+
+            position: absolute; /* Встановлюємо позицію */
+    top: 560px; /* Зсуваємо вниз на px */
+    left: 1250px;
+}
+.button_phone_4:hover {
+  background-color: rgb(43, 181, 41); /* Колір фону при наведенні */
+}
+
+ .button_search{
+  display: inline-block; /* Зробити кнопку блочним елементом */
+            padding: 6px 105px; /* Внутрішні відступи */
+            font-size: 16px; /* Розмір шрифту */
+            text-align: center; /* Вирівнювання тексту по центру */
+            cursor: pointer; /* Змінити вигляд курсора */
+            background-color: rgb(0, 0, 0); /* Колір фону кнопки */
+            color: white; /* Колір тексту */
+            border: none; /* Видалити рамку */
+            border-radius: 5px; /* Закруглені кути */
+            text-decoration: none; /* Видалити підкреслення тексту */
+            transition: background-color 0.3s ease;
+
+            position: absolute; /* Встановлюємо позицію */
+    top: 100px; /* Зсуваємо вниз на px */
+    left: 10px;
+ }
+ .button_search:hover{
+  background-color:rgb(32, 32, 33); /* Колір фону при наведенні */
+}
+
+ .words{
+  position: absolute; /* Встановлюємо позицію */
+    top: 70px; /* Зсуваємо вниз на px */
+    left: 10px;
+ }
+ .words input{
+  font-size: 14px; /* Розмір шрифту */
+      width: 250px;/* Змінює ширину текстового поля */
+
+ }
+
+  
